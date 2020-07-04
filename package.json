@@ -1,0 +1,16 @@
+{
+  "name": "s15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w sass/ -o css/ --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "perfect-scrollbar": "^1.4.0",
+    "simplebar": "^4.3.0-alpha.1"
+  }
+}

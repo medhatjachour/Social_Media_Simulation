@@ -1,0 +1,112 @@
+footer{
+    position: relative;
+    border-top: 3px solid #088dcd;
+    width: 100%;
+    background-color: white;
+    .row{
+         padding: 75px 0px;
+    }
+    li{
+        cursor: pointer;
+    }
+    .f-a{
+        p{
+            font-size: 15px;
+            color: #545454;
+            margin: 15px 0px;
+        }
+        ul{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            color: #545454;
+            font-size: 15px;
+            li{
+                margin-top: 15px;
+                i{
+                    margin-right: 13px;
+                   }
+            }
+        }
+    }
+    .f-s-b{
+        i{
+            margin-right: 13px;
+        }
+    }
+    .f0b-c{
+        li{
+            transition: .5s;
+            border: 1px solid #5d6371;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 16px;
+            margin-bottom: 15px;
+            padding: 5px 0;
+            text-align: center;
+            text-transform: capitalize;
+            width: 90%;
+            i{
+                margin-right: 8px;
+                color: #7f8085;
+            }
+        }
+        li:hover{
+            background-color: #088dcd;
+            color: white;
+            border-color: #088dcd;
+            cursor: pointer;
+            transition: .5s;
+        }
+        li:hover i{
+            color: white;
+            transition: .5s;
+        }
+    }   
+    h5{
+        text-transform: capitalize;
+        p{
+            padding: 0px;
+            margin: 0px;
+            margin-bottom: 5px;
+            width: 200px;
+        }
+        color: #424242;
+        font-size: 18px;
+        width: 30px;
+        border-bottom: 2px solid #088dcd;
+        margin-bottom: 33px;
+    }
+    ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 30px;
+        li{
+            text-transform: capitalize;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    }
+    .fotfot{
+        font-size: 12px;
+        font-weight: 300;
+        color: #545454;
+        padding: 20px;
+        background-color: #f6f6f6;
+        img{
+            float: right;
+        }
+        p{
+            margin: 0px;
+            padding: 0px;
+            width: 50%;
+            display: inline-block;
+        }
+    }    
+}
+@media only screen and (max-width:992px){
+    .col-h{
+        display: none;
+    }
+}

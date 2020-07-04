@@ -1,0 +1,114 @@
+.menu-left{
+    background-color: #4BB5EF;
+    display: none;
+   i{
+       
+        cursor: pointer;
+       transform: translateY(15px);
+   }
+    }
+.left{
+    display: flex;
+    background: #fff none repeat scroll 0 0;
+    height: 100vh;
+    left: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    position: fixed;
+    top: 59px;
+    width: 70px;
+    z-index: 9;
+    -webkit-box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+    -moz-box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+    -ms-box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+    -o-box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+    box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.1);
+
+    position: fixed;
+    ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        li{
+            margin-top: 10px;
+            padding: 8px 0px;
+            color: #848484;
+            font-size: 21px;
+            margin-left: 24px;
+            margin-bottom: 12px;
+            cursor: pointer;
+        }
+        .mn-li-log{
+            font-size: 25px;
+        }
+    }    
+}
+.menuleft{
+    margin-top: 70px;
+    padding-top: 20px;
+    display: none;
+    width: 50%;
+    height: 1500px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    transition: 1s;
+    h4{
+        width: 50px;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        border-bottom: 4px solid #088dcd;
+    }
+    .l-a{
+        margin-bottom: 30px;
+        background-color: #fdfdfd;
+        border-radius: 5px;
+        padding: 20px ;
+        padding-left:20px;
+       
+        ul{
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            li{
+                font-size: 14px;
+                color: #797979;
+                margin-top: 4px;
+                padding: 8px 0px;   
+                i{
+                    margin-right: 10px;
+                }
+            }
+            li:hover{
+                color: #088dcd;
+            }
+        }
+    }
+}
+.move-left {
+    transform: translateX(50%);
+    transition:.4s ;
+}
+@media only screen and (max-width:992px){
+    .left{
+        display: none;
+    }
+    .menu-left{
+        display: block;
+        img{
+            height: 20px;;
+        }
+        }
+}
+@media only screen and (max-width:482px)
+{
+    .menuleft{
+        width: 100%!important;
+    }
+    
+.move-left {
+    transform: translateX(-100%);
+    transition: .4s;
+    }
+}

@@ -1,0 +1,190 @@
+button:focus{
+    outline: none;
+}
+
+
+.nav{
+    transition: .5s;
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999999;
+    height: 60px;;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    .logo{
+        display: inline-block;
+        vertical-align: inherit;
+        width: 15%;
+        a{
+            margin-top: 12px;
+            display: inline-block;
+            vertical-align: middle;
+            img{
+                vertical-align: middle;
+                height: auto;
+            }
+        }
+        
+    }
+    .serch{
+        display: none;
+    }
+    .big-h{
+    display: none;
+    width: 0%;
+    }
+    .nav-cont{
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    width: 84%;
+    .l-ul{
+        padding-top: 18px;
+        float: left;
+        list-style: none;
+        li{
+            padding: 2px 10px;
+            margin-right: 20px;
+            display: inline-block;
+            cursor: pointer;
+            .home-ul{
+                color: #575b5f;
+                font-size: 14px;
+                font-weight: 500;
+                text-transform: capitalize;
+                letter-spacing: 0.3px;
+            }
+            a{
+                text-transform: capitalize;
+                border-radius: 0 0 5px 5px;
+                color: #9f9f9f;
+                display: inline-block;
+                font-size: 13px!important;
+                font-weight: 500;
+                padding: 10px 15px;
+                text-transform: capitalize;
+                transition: all 0.2s linear 0s;
+                width: 100%;
+            }
+            a:hover{
+                color: #4BB5EF;
+                font-size:14px; 
+            }
+            .dropdown-menu{
+                width: 200px;
+                transform: translateY(15px);
+                border-top: 2px solid #4BB5EF;
+            }
+        }
+    }
+    .b-ul{
+        
+        padding-top: 14px;
+        float: right;
+        list-style: none;
+        li{
+           
+            padding: 2px 10px;
+            margin-right: 15px;
+            font-size: 20px;
+            display: inline-block;
+            cursor: pointer; 
+            color: #9f9f9f;        
+        }
+        .img-li{
+            width: 35px;
+            height: 35px;
+            margin: 0px 25px;
+            border-radius: 50%;
+            background-image: url(../img/2017_08_12_13_32_IMG_0109.JPG);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 35px!important;
+            float: right;
+            .fa-circle{
+                font-size: 12px;
+                color: #7FBA00;
+                position: relative;
+                top: 13px;
+                left: 10px;
+            }
+            .sp-fa-cl{
+                position: relative;
+                margin-right: 3px;
+                transform: translateY(-32px);
+                font-size: 6px;
+                color: white;
+            }
+        
+        }
+        .small-srch{
+            display: none;
+            background-color: white;
+            border-bottom: .09rem solid rgb(23, 56, 73);
+            padding: 8px;
+            position: relative;
+            top: 13px;
+            left: 25px;
+            box-shadow: rgb(222, 222, 222) 0px 10px 20px;
+            color: rgb(153, 153, 153);
+            input{
+                width: 88%;
+                border: 0px;
+            }
+            input::placeholder{
+                font-size: 16px;
+            }
+            i{
+                margin-right: 10px;
+                font-size: 16px;
+            }
+        }    
+     
+    }
+    }
+    
+
+}
+
+.table-cl{
+    display: table-cell!important;
+}
+
+@media only screen and (max-width:992px){
+    .nav{
+        background-color: #4BB5EF;
+        color: white!important;
+        height: auto;
+        .big-l{
+            width: 0%;
+            display: none;
+        }
+        .big-h{
+            margin: auto;
+            width: 15%;
+            display: block;
+        }
+        .nav-cont{
+            display: none;
+        }
+        .serch{
+            display: block;
+            width: 100%;
+            margin: 10px 0px;
+            background-color: white;
+            border-radius: 10px;
+            input{
+                background-color: white;
+                border-radius: 3px;
+                width: 100%;
+                border: 0px;
+                padding: 0px 20px;
+            }
+        }
+    }
+}
+

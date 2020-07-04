@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="tr%20-%20Copy.css">
+        <script src="jquery.mCustomScrollbar.concat.min.js"></script>
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          <script src="https://kit.fontawesome.com/711cc23ef3.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script>
+        (function($){
+            $(window) .load(function){
+                $("#text").mCustomScrollbar();
+            }
+        })
+        </script>
+        <style>
+            .scl{
+                height:300px;
+                width: 300px;
+                overflow: auto;
+            }    
+        </style>
+    </head>
+    <body>
+        <div class="scl" id="text">
+           
+            Highly customizable custom scrollbar jQuery plugin, featuring vertical/horizontal scrollbars, scrolling momentum, mouse-wheel, keyboard and touch support etc. http://manos.malihu.gr/jquery-custom-…
+ 153 commits
+ 3 branches
+ 24 releases
+ 18 contributors
+ View license
+@malihu
+malihu Fixed mouse-wheel in textarea_example.html
+Latest commit
+5f1bb9d
+on Nov 12, 2016
+Type	Name	Latest commit message	Commit time
+examples	Fixed mouse-wheel in textarea_example.html	3 years ago
+js	Update plugin to version 3.1.5	3 years ago
+source-files	Add version 3 files	6 years ago
+.gitignore	Update .gitignore	5 years ago
+LICENSE.txt	Optimized/fixed mouse-wheel scrolling on OSX, added version 3.1.13 mo…	4 years ago
+bower.json	Remove moot `version` property from bower.json	5 years ago
+jquery.mCustomScrollbar.concat.min.js	Update plugin to version 3.1.5	3 years ago
+jquery.mCustomScrollbar.css	Update plugin to version 3.1.0	4 years ago
+jquery.mCustomScrollbar.js	Update plugin to version 3.1.5	3 years ago
+jquery.mCustomScrollbar.min.css	Update plugin to version 3.1.0	4 years ago
+mCSB_buttons.png	Add version 3 files	6 years ago
+package.json	Update package.json	3 years ago
+readme.md	Update readme.md	3 years ago
+ readme.md
+malihu custom scrollbar plugin
+Highly customizable custom scrollbar jQuery plugin (Demo). Features include:
+
+Vertical and/or horizontal scrollbar(s)
+Adjustable scrolling momentum
+Mouse-wheel, keyboard and touch support
+Ready-to-use themes and customization via CSS
+RTL direction support
+Option parameters for full control of scrollbar functionality
+Methods for triggering actions like scroll-to, update, destroy etc.
+User-defined callbacks
+Selectable/searchable content
+Plugin homepage and documentation (Changelog)
+
+Installation
+npm: npm install malihu-custom-scrollbar-plugin
+
+Bower: bower install malihu-custom-scrollbar-plugin
+
+Manual
+
+Usage
+Manual: $(selector).mCustomScrollbar();
+
+Browserify:
+
+var $ = require('jquery');
+require('malihu-custom-scrollbar-plugin')($);
+webpack:
+
+npm install imports-loader
+npm install jquery-mousewheel
+npm install malihu-custom-scrollbar-plugin
+
+module.exports = {
+	module: {
+		loaders: [
+			{ test: /jquery-mousewheel/, loader: "imports?define=>false&this=>window" },
+			{ test: /malihu-custom-scrollbar-plugin/, loader: "imports?define=>false&this=>window" }
+		]
+	}
+};
+
+var $ = require('jquery');
+require("jquery-mousewheel")($);
+require('malihu-custom-scrollbar-plugin')($);
+Requirements
+jQuery version 1.6.0 or higher
+
+Browser compatibility
+Internet Explorer 8+
+Firefox
+Chrome
+Opera
+Safari
+iOS
+Android
+Windows Phone
+License
+MIT License (MIT)
+
+http://opensource.org/licenses/MIT
+
+Donate
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UYJ5G65M6ZA28
+
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+        </div>
+    </body>
+</html>
