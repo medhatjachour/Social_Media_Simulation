@@ -4,11 +4,9 @@ This repository contains a project that simulates a social media platform using 
 
 
 ## Demo
-![alt text](https://github.com/medhatjachour/Social_Media_Simulation/blob/main/img/d1.png?raw=true)
 
 You can view a live demo of the project here.
-
-
+![alt text](https://github.com/medhatjachour/Social_Media_Simulation/blob/main/img/d1.png?raw=true)
 ## Installation
 
 1. Clone the repository:
