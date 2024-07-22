@@ -1,10 +1,10 @@
-# Social Media Simulation
+# Social_Media_Simulation
 
 This repository contains a project that simulates a social media platform using HTML, CSS, SASS, and jQuery. The project aims to provide a basic understanding of how a social media platform can be structured and styled.
 
 
 ## Demo
-![alt text](https://github.com/medhatjachour/Social Media Simulation/blob/main/img/d1.png?raw=true)
+![alt text](https://github.com/medhatjachour/Social_Media_Simulation/blob/img/sample/d1.png?raw=true)
 
 You can view a live demo of the project here.
 
