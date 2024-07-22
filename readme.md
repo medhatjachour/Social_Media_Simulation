@@ -1,82 +1,53 @@
-malihu custom scrollbar plugin
-================================
+# Social Media Simulation
 
-Highly customizable custom scrollbar jQuery plugin ([Demo](http://manos.malihu.gr/repository/custom-scrollbar/demo/examples/complete_examples.html)). Features include: 
-
-* Vertical and/or horizontal scrollbar(s)  
-* Adjustable scrolling momentum 
-* Mouse-wheel, keyboard and touch support 
-* Ready-to-use themes and customization via CSS 
-* RTL direction support 
-* Option parameters for full control of scrollbar functionality 
-* Methods for triggering actions like scroll-to, update, destroy etc. 
-* User-defined callbacks 
-* Selectable/searchable content
-
-**[Plugin homepage and documentation](http://manos.malihu.gr/jquery-custom-content-scroller/)** ([Changelog](http://manos.malihu.gr/jquery-custom-content-scroller/2/)) 
-
-#### Installation
-
-npm: `npm install malihu-custom-scrollbar-plugin` 
-
-Bower: `bower install malihu-custom-scrollbar-plugin` 
-
-[Manual](http://manos.malihu.gr/jquery-custom-content-scroller/#get-started-section) 
-
-#### Usage 
-
-Manual: `$(selector).mCustomScrollbar();` 
-
-[Browserify](http://browserify.org/): 
-
-    var $ = require('jquery');
-    require('malihu-custom-scrollbar-plugin')($);
-
-[webpack](https://webpack.github.io/): 
-
-    npm install imports-loader
-	npm install jquery-mousewheel
-	npm install malihu-custom-scrollbar-plugin
-
-	module.exports = {
-		module: {
-			loaders: [
-				{ test: /jquery-mousewheel/, loader: "imports?define=>false&this=>window" },
-				{ test: /malihu-custom-scrollbar-plugin/, loader: "imports?define=>false&this=>window" }
-			]
-		}
-	};
-
-	var $ = require('jquery');
-	require("jquery-mousewheel")($);
-    require('malihu-custom-scrollbar-plugin')($);
+This repository contains a project that simulates a social media platform using HTML, CSS, SASS, and jQuery. The project aims to provide a basic understanding of how a social media platform can be structured and styled.
 
 
-Requirements
--------------------------
+## Demo
+![alt text](https://github.com/medhatjachour/Social Media Simulation/blob/main/img/d1.png?raw=true)
 
-jQuery version **1.6.0** or higher
+You can view a live demo of the project here.
 
-Browser compatibility
--------------------------
 
-* Internet Explorer 8+ 
-* Firefox 
-* Chrome 
-* Opera 
-* Safari  
-* iOS 
-* Android 
-* Windows Phone
+## Installation
 
-License 
--------------------------
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/medhatjachour/social-media-simulation.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd social-media-simulation
+    ```
+3. Open `index.html` in your preferred web browser.
 
-MIT License (MIT)
 
-http://opensource.org/licenses/MIT
+## Contributing
 
-Donate 
--------------------------
+Contributions are welcome! Please follow these steps to contribute:
 
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UYJ5G65M6ZA28
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Add new feature"
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature-branch
+    ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+If you have any questions or suggestions, feel free to reach out:
+
+- Email: medhatjachour@gmail.com
+- GitHub: medhatjachour
